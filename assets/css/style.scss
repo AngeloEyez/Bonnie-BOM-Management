@@ -1,0 +1,12 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+a:hover, a:focus {
+  font-weight: normal;
+}
+
+h1 {
+	border-bottom: 1px solid #eaecef;
+}
