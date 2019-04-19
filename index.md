@@ -1,26 +1,14 @@
 ---
 layout: default
-title: Matriz - Matrix BOM Tool
+title: Bonnie - BOM Management Tool
 ---
-# Matriz
-Matriz是一個處理Matrix BOM的工具 
+# Bonnie
+Bonnie 是一個可以快速批量編輯維護線路中零件property的工具 。
 
 
 # Features
 
 1. 將 OEM/ODM BOM 轉為 Matrix BOM 格式. 
-
-
-# Revision History
-### v1.0.0.0 (TBD)
-- 調整 Matrix BOM 格式以通過 Agile 系統驗證. ⚠️
-- 大幅加速 OEM BOM 處理時間.
-- 增加 Help menu / About Dialog / FAQ link
-- 隱藏操作中的 Excel 視窗.
-- 調整 layout, 增加 imput BOM 需求說明
-
-### v0.9 (2018-06-10)
-- Initial release.
 
 
 # FAQ
@@ -44,4 +32,4 @@ Matriz會確認輸入BOM的格式，以確保可以取得正確資訊，輸入�
 # Support or Contact
 有遇到問題嗎? 請先參考 [FAQ](#faq)
 
-如果仍然有無法解決的問題，歡迎 [提出issue](https://github.com/AngeloEyez/Matriz-MatrixBOMTool/issues)，但不保證一定能解決 :)
+如果仍然有無法解決的問題，歡迎 [提出issue](https://github.com/AngeloEyez/Bonnie-BOM-Management/issues)，但不保證一定能解決 :)
