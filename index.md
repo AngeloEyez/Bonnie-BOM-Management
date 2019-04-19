@@ -8,25 +8,16 @@ Bonnie 是一個可以快速批量編輯維護線路中零件property的工具 �
 
 # Features
 
-1. 將 OEM/ODM BOM 轉為 Matrix BOM 格式. 
+1. 將 Capture Orcad輸出之 .BOM 檔案中 BOM/Side 欄位的 config 炸開。
+2. 快速導入 Allegro 中零件的正背面屬性到線路中。 
 
 
 # FAQ
-### - OEM/ODM BOM格式需求
-Matriz會確認輸入BOM的格式，以確保可以取得正確資訊，輸入的 OEM/ODM BOM 必須滿足以下條件： 
-1. 包含這些 sheets，大小寫必須符合
- - ALL
- - SMD
- - PTH
- - BOTTOM
- - MP
-2. 每個頁面不論有沒有 component，都要包含表頭
-
-### - [Error:] BOM Creat fail (null bomkey)
-請確認專案名稱正確，或者關閉記憶體中所有 Excel 程序後再重試
-
-### - Something wrong with EXCEL operation, please close all EXCEL process in momory and try again.
-請用工作管理員關閉所有記憶體中的 Excel, 若還是一樣的錯誤，可以嘗試重啟後再執行 Matriz
+### 1. 支援的 Option 欄位
+Bonnie 支援以下欄位有 Option，以逗號分隔： 
+1. BOM ： 例如 I,I,NI,MP,PROTO
+2. Side ： Bonnie會自動更新Side欄位，若有 option，會以 T,T,T,B,B 表示
+Bonnie 會確認支援的欄位都含有相同數量的 option。
 
 
 # Support or Contact
